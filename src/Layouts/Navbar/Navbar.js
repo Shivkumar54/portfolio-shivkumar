@@ -15,8 +15,6 @@ const Navbar = () => {
     }
   }
 
-
-
   window.addEventListener("scroll", addBgColor)
   return (
     <div className="entirefile">

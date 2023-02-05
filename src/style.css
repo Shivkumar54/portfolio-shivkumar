@@ -49,7 +49,7 @@
 .imager {
   width: 100%;
   height: 100vh;
-  object-fit: cover;
+  object-fit: contain;
   position: relative;
 }
 .image {
@@ -99,6 +99,7 @@
   border-radius: 5px;
   font-weight: 500;
   text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 /* HOME */
 
@@ -109,6 +110,44 @@
 }
 /* About */
 
+/* Contact page  */
+.contacter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 40%;
+  height: 100vh;
+  padding: 0 70px 0 30px;
+  background-color: white;
+  float: right;
+  /* color: white;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 0 20px 20px 0;
+  border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+.imager {
+  width: 100%;
+  height: 100vh;
+  object-position: unset;
+  object-fit: cover;
+}
+.contactHeader {
+  margin-bottom: 15px;
+}
+.inputer {
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+/* Contact page  */
 @media screen and (max-width: 768px) {
   /* Navbar  */
   .navbarRoot {
@@ -184,6 +223,38 @@
     border-radius: 5px;
     font-weight: 400;
     text-transform: uppercase;
+    width: 100%;
   }
   /* Home  */
+
+  /* Contact  */
+  .contacter {
+    bottom: 20px;
+    float: none;
+     height: 100vh;
+    width: 100%;
+    position: fixed;
+    padding: 10px 30px;
+    border-radius: 30px 30px 0 0;
+  }
+  .contactHeader {
+    margin-bottom: 15px;
+  }
+  .inputer {
+    border: none;
+    padding: 10px 10px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 0.5px solid rgb(90, 90, 90);
+  }
+  .showForm {
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    padding: 10px 30px;
+    border-radius: 30px 30px 0 0;
+  }
+
+  /* Contact  */
 }
