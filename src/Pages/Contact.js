@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
-import {FaTelegramPlane} from "react-icons/fa"
+import { FaTelegramPlane } from "react-icons/fa"
+import { IoClose } from "react-icons/io5"
 import ContactImage from "../Assets/Images/88.jpg"
 const Contact = () => {
   const [form, setForm] = useState(false)
@@ -22,7 +23,8 @@ const Contact = () => {
           </div>
           {form && (
             <div className="contacter">
-              <h1>Feedbackform</h1>
+              <IoClose size={30} onClick={() => setForm(!form)} />
+              <h1>Feedback form</h1>
               <div className="form">
                 <form action="">
                   <input

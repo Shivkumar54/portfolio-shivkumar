@@ -122,8 +122,10 @@
   background-color: white;
   float: left;
   position: fixed;
+  border-radius: 0 30px 30px 0;
 }
 .contacter {
+  border-radius: 0 30px 30px 0;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -173,7 +175,7 @@
   justify-content: left;
   font-size: 19px;
   cursor: pointer;
-  text-transform: capitalize;
+  text-transform: lowercase;
   color: rgb(135, 135, 255);
   margin: 0;
   font-weight: 500;
@@ -237,10 +239,10 @@
     text-align: center;
     padding: 30px 50px;
     background: rgba(255, 255, 255, 0.35);
-    box-shadow: 0 2px 2px 0 rgba(233, 233, 233, 0.37);
+    box-shadow: 0 2px 2px 0 rgba(219, 219, 219, 0.37);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
-    border-radius: 10px;
+    border-radius: 40px;
     border: 1px solid rgba(255, 255, 255, 0.18);
   }
   .homeHeading {
@@ -283,7 +285,7 @@
     width: 100%;
     position: fixed;
     padding: 10px 30px;
-    border-radius: 30px 30px 0 0;
+    border-radius: 0;
   }
   .contactHeader {
     margin-bottom: 15px;
@@ -313,7 +315,7 @@
     margin-top: 15px;
     font-size: 16px;
     cursor: pointer;
-    text-transform: capitalize;
+    text-transform: lowercase;
   }
 
   /* Contact  */
