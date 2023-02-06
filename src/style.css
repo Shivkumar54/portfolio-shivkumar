@@ -37,11 +37,19 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   color: white;
 }
 .iconer {
   display: none;
+}
+.active .linker {
+  background-color: #ffffff;
+  color: #b5816b;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
 }
 /* Navbar */
 
@@ -226,6 +234,21 @@
   .iconer {
     display: block;
     color: #505050;
+  }
+  .active .iconer {
+    color: #b5816b;
+    padding: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-weight: none;
+  }
+  .active .linker {
+    background-color: transparent;
+    color: #b5816b;
+    padding: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-weight: none;
   }
   /* Navbar  */
   /* Home  */
