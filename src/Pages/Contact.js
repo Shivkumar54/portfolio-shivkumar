@@ -47,7 +47,7 @@ const Contact = () => {
                   ></textarea>
                   <br />
                   <button className="homeBtn">Post Now</button>
-                  <Link to="/" className="linker">
+                  <Link to="/" className="linkerr">
                     <p className="goback">Go to Home</p>
                   </Link>
                 </form>
