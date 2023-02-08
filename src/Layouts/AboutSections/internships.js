@@ -11,7 +11,7 @@ const internships = () => {
       title: "Software Engineer",
       company: "Techciti Technologies",
       desc: `Learned web development technologies like HTML, HTML5, CSS, Bootstrap & Python. Developed a web application called "Tourism & Analysis". I was responsible for creating responsive web pages & Certified as a software engineer intern`,
-      passed: "Jun 2020 - Jul 2020",
+      passed: "Jun 20 - Jul 20",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ const internships = () => {
       company: "Shape AI",
       desc: `Learned full stack technologies in MERN stack. My responsibilities are to learn and develop web projects. Book my show clone using React JS, Task Manager using HTML, CSS, & JavaScript, Zomato landing page using HTML, CSS
 `,
-      passed: "Jun 2021 - Aug 2021",
+      passed: "Jun 21-Aug 21",
     },
   ]
   return (
@@ -41,8 +41,8 @@ const internships = () => {
                     </div>
                     <div className="itext">
                       <div className="iflexer">
-                        <h4>{title}</h4>
-                        <span>
+                        <h5>{title}</h5>
+                        <span className="time">
                           {" "}
                           <AiTwotoneCalendar size={20} /> {passed}
                         </span>

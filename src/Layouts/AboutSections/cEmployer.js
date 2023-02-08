@@ -7,14 +7,14 @@ const cEmployer = () => {
     {
       id: 1,
       img: Img1,
-      title: "Assiatant Sysytem Engineer ",
+      title: "Assiatant System Engineer ",
       company: "Tata Consultancy Services [TCS]",
       desc: `I got my first job in TCS. 
 I have got allocated to a Sony Liv OTT platform where the technology used is React. 
 I was in a maintenance team where my role was to fix the platform's minor bugs and look after the alignment of the items in given dimensions. 
 Now I'm working on another project called HDFC enhancement where I used to develop newly required line items given by the customer end and the technology used is JavaScript.
 Completed 1 year in this organisation`,
-      passed: "Dec 2021 - Present",
+      passed: "Dec 21 - Now",
     },
   ]
   return (
@@ -35,8 +35,8 @@ Completed 1 year in this organisation`,
                     </div>
                     <div className="itext">
                       <div className="iflexer">
-                        <h4>{title}</h4>
-                        <span>
+                        <h5>{title}</h5>
+                        <span className="time">
                           {" "}
                           <AiTwotoneCalendar size={20} /> {passed}
                         </span>
