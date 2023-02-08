@@ -1,10 +1,12 @@
 import React from "react"
 import AboutImage from "../Assets/Images/1.jpg"
 import Education from "../Layouts/AboutSections/education"
+import Internship from "../Layouts/AboutSections/internships"
+import Employer from "../Layouts/AboutSections/cEmployer"
 const About = () => {
   return (
-    <div className="Abouter">
-      <div className="aboutHeader container">
+    <div className="Abouter container ">
+      <div className="aboutHeader ">
         <div className="aImg">
           <img src={AboutImage} alt="" className="aImager" />
         </div>
@@ -21,6 +23,8 @@ const About = () => {
         </div>
       </div>
       <Education />
+      <Internship />
+      <Employer />
     </div>
   )
 }
