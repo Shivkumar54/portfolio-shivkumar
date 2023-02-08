@@ -2,7 +2,7 @@ import React from "react"
 import { AiTwotoneCalendar } from "react-icons/ai"
 import img1 from "../../Assets/Images/30.jpg"
 import img2 from "../../Assets/Images/45.jpg"
-import img11 from "../../Assets/Images/11.jpg"
+import img11 from "../../Assets/Images/103.jpg"
 const Education = () => {
   const list = [
     {
