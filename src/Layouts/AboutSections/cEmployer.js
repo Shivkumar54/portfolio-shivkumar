@@ -7,7 +7,7 @@ const cEmployer = () => {
     {
       id: 1,
       img: Img1,
-      title: "Assiatant System Engineer ",
+      title: "Asst System Engineer ",
       company: "Tata Consultancy Services [TCS]",
       desc: `I got my first job in TCS. 
 I have got allocated to a Sony Liv OTT platform where the technology used is React. 
