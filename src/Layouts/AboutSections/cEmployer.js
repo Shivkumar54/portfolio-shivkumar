@@ -9,7 +9,7 @@ const cEmployer = () => {
       img: Img1,
       title: "Assiatant Sysytem Engineer ",
       company: "Tata Consultancy Services [TCS]",
-      desc: `I got my first job at Tata consultancy services as an Associate Software Engineer on Dec 16, 2021. 
+      desc: `I got my first job in TCS. 
 I have got allocated to a Sony Liv OTT platform where the technology used is React. 
 I was in a maintenance team where my role was to fix the platform's minor bugs and look after the alignment of the items in given dimensions. 
 Now I'm working on another project called HDFC enhancement where I used to develop newly required line items given by the customer end and the technology used is JavaScript.
