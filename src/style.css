@@ -26,7 +26,6 @@
   font-size: 30px;
   margin: 0;
   color: #000000;
-  display: none;
 }
 .listUl {
   display: flex;
@@ -246,6 +245,81 @@
 /* CEmployer  */
 
 /* About */
+/* projects  */
+
+.expImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rootLister {
+  padding: 0 5px;
+  margin-top: 0;
+}
+.exp {
+  width: 100%;
+  height: 58vh;
+  padding-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.tContent {
+  background: rgba(221, 221, 221, 0.35);
+  box-shadow: 0 2px 2px 0 rgba(233, 233, 233, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.expText {
+  text-align: center;
+  margin: 0;
+}
+
+.slick-prev:before {
+  content: "<";
+  color: #545454 !important;
+  font-size: 30px;
+  position: relative;
+}
+
+.sliderr {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.tech {
+  font-weight: 700;
+  font-size: 35px;
+}
+.subtech {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.slick-next:before {
+  content: ">";
+  color: #545454 !important;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.quote {
+  display: none;
+}
+
+/* projects  */
 
 /* Contact page  */
 .hanlder {
@@ -325,7 +399,7 @@
 }
 
 /* Contact page  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   /* Navbar  */
   .navbarRoot {
     display: flex;
@@ -338,6 +412,9 @@
     color: white;
     position: relative;
     bottom: 0;
+  }
+  .logoName {
+    display: none;
   }
   .list {
     width: 100%;
@@ -557,6 +634,36 @@
   /* CEmployer  */
   /* Education  */
   /* About  */
+
+  /* Technology  */
+  .exp {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .tContent {
+    margin-top: 24px;
+    height: 10vh;
+  }
+  .tech {
+    font-size: 28px;
+  }
+  .subtech {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .rootLister {
+    padding: 0 5px;
+    margin-top: 0;
+  }
+  .expText {
+    font-size: 15px;
+  }
+  /* Technology  */
+
   /* Contact  */
   .hanlder {
     bottom: 20px;
