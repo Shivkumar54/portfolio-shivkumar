@@ -20,11 +20,7 @@ const Navbar = () => {
   window.addEventListener("scroll", addBgColor)
   return (
     <div className="entirefile">
-      <div
-        className={
-          color ? "navbarRoot header-bg " : "navbarRoot "
-        }
-      >
+      <div className={color ? "navbarRoot header-bg " : "navbarRoot "}>
         <div className="logo">
           <h1 className="logoName">Portfolio</h1>
         </div>
@@ -46,12 +42,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              className={
-                splitLocation[1] === "projectandskills" ? "active" : "linker"
-              }
+              className={splitLocation[1] === "projects" ? "active" : "linker"}
             >
-              {" "}
-              <Link className="linker" to="/projectandskills">
+              <Link className="linker" to="/projects">
                 <MdWork className="iconer" size={20} />
                 Projects{" "}
               </Link>
