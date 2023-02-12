@@ -1,9 +1,3 @@
-.d {
-  width: 100%;
-  height: 100vh;
-  background-color: teal;
-}
-
 /* Navbar */
 .navbarRoot {
   display: flex;
@@ -345,10 +339,12 @@
 
 .pImager {
   width: 100%;
-  height: 38vh;
+  height: 35vh;
   position: relative;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   filter: grayscale(50%);
+  background: white;
+  border-radius: 10px;
 }
 .pImager:hover {
   filter: grayscale(0%);
@@ -357,22 +353,29 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  background-color: white;
 }
 
 .ptitler {
   position: absolute;
   display: flex;
-  align-items: end;
+  align-items: center;
   text-align: center;
   justify-content: center;
   width: 100%;
   height: 100%;
 }
 .ptitle {
-  background-color: #ffffff;
+  background-color: rgb(214, 213, 218);
+  border-radius: 10px;
   width: 100%;
-  padding: 10px;
+  height: 100%;
+  padding: 0px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   text-transform: uppercase;
 }
 .bttn {
@@ -388,6 +391,88 @@
 .bttn:hover {
   background-color: #b5816b;
 }
+.gapr {
+  margin-bottom: 1.5rem;
+}
+.listerr {
+  list-style-type: none;
+  font-weight: 600;
+}
+.lis {
+  list-style-type: none;
+}
+/* Pdetails  */
+.details {
+  padding-top: 13vh;
+}
+
+.mFlexer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.mImage {
+  width: 100%;
+  height: 55vh;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+.mimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.btns {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.bt {
+  width: 200px;
+  height: 2.8rem;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.pbtn {
+  background-color: blue;
+  color: white;
+}
+.sbtn {
+}
+
+.mContent {
+  width: 65%;
+}
+.sidebar {
+  display: block;
+  width: 30%;
+}
+.hide2 {
+  display: show;
+}
+.hide1 {
+  display: none;
+}
+.iconerr {
+  display: inline-block;
+  color: blue;
+  cursor: pointer;
+}
+.flxr {
+  display: flex;
+  gap: 50px;
+  justify-content: left;
+  align-items: center;
+}
+/* Pdetails  */
+
 /* projects  */
 
 /* Contact page  */
@@ -707,7 +792,7 @@
   /* Technology  */
   .exp {
     width: 100%;
-    height: 32vh;
+    height: 30vh;
     top: 10px;
     display: flex;
     justify-content: flex-start;
@@ -744,7 +829,7 @@
     margin-top: 0px;
     padding: 5px 5px;
     display: flex;
-    height: 33vh;
+    height: 31vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -758,9 +843,9 @@
 
   .pImager {
     width: 100%;
-    height: 30vh;
+    height: 22vh;
     position: relative;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     filter: grayscale(50%);
   }
   .pImager:hover {
@@ -782,15 +867,14 @@
     height: 100%;
   }
   .ptitle {
-    background-color: #ffffff;
     width: 100%;
-    padding: 8px;
+    padding: 6px;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 13px;
     text-transform: uppercase;
   }
   .bttn {
-    height: 5vh;
+    height: 4.5vh;
     text-transform: uppercase;
     background-color: #a1938d;
     color: white;
@@ -801,6 +885,76 @@
   .bttn:hover {
     background-color: #b5816b;
   }
+
+  /* Details  */
+  .details {
+    padding-top: 5vh;
+  }
+  .flxr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pdTitle {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .mFlexer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20vh;
+  }
+  .mImage {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 1rem;
+    object-fit: contain;
+  }
+  .mimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .bt {
+    width: 100%;
+    height: 2.8rem;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  .mContent {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 10px 20px;
+    height: 65vh;
+    border-radius: 10px;
+  }
+  .sidebar {
+    position: absolute;
+    width: 93%;
+    background-color: rgb(253, 253, 253);
+    height: 72vh;
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+
+  .hide2 {
+    display: none;
+  }
+  .hide1 {
+    display: block;
+  }
+  .iconerr {
+    display: inline-block;
+    color: blue;
+  }
+
+  /* Details  */
+
   /* Projects  */
 
   /* Contact  */

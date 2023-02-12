@@ -1,8 +1,7 @@
 import React, { useState } from "react"
-import PData from "../Data/ProjectData"
 import { Link } from "react-router-dom"
+import data from "../Data/ProjectData"
 const Projects = () => {
-  const [data, setData] = useState(PData)
   return (
     <div>
       <h2 className="tech">Projects & Accompishments</h2>

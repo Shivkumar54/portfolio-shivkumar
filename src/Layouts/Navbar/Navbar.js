@@ -8,7 +8,7 @@ import "../../style.css"
 const Navbar = () => {
   const [color, setColor] = useState(false)
   const addBgColor = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 20) {
       setColor(true)
     } else {
       setColor(false)

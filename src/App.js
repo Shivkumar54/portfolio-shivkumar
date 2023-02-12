@@ -6,6 +6,7 @@ import About from "./Pages/About"
 import PAndS from "./Pages/ProjectAndSkills"
 import Contact from "./Pages/Contact"
 import ProjectDetails from "./Layouts/ProjectSection/ProjectDetails"
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,10 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<PAndS />} />
-            <Route path="/projects/:id" element={<ProjectDetails />} />
+            <Route
+              path="/projects/:id"
+              element={<ProjectDetails />}
+            />
             <Route path="/feedback" element={<Contact />} />
           </Route>
         </Routes>
@@ -25,3 +29,4 @@ function App() {
 }
 
 export default App
+
