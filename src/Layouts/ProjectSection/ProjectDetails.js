@@ -95,6 +95,8 @@ const ProjectDetails = () => {
 
               <span className="aSpanner  ">IDE</span>
               <h6 className="gapr">{gPDetails.ide}</h6>
+              <span className="aSpanner  ">API</span>
+              <h6 className="gapr">{gPDetails.Api}</h6>
               <span className="aSpanner ">Projcet hoisted site</span>
               <h6 className="gapr">{gPDetails.hoisting}</h6>
               <span className="aSpanner ">Project Deployment site</span>

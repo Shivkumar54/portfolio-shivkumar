@@ -3,7 +3,9 @@ import AboutImage from "../Assets/Images/1.jpg"
 import Education from "../Layouts/AboutSections/education"
 import Internship from "../Layouts/AboutSections/internships"
 import Employer from "../Layouts/AboutSections/cEmployer"
+import { Link } from "react-router-dom"
 const About = () => {
+  const linkedin = "https://www.linkedin.com/in/shivkumar-m-a7a49b205/"
   return (
     <div className="Abouter container ">
       <div className="aboutHeader ">
@@ -19,7 +21,10 @@ const About = () => {
             player and hard-working professional with overall 1-year experience
             in an IT firm
           </p>
-          <button className="homeBtn"> Linkedin</button>
+          <Link to={linkedin}>
+            {" "}
+            <button className="homeBtn"> Linkedin</button>
+          </Link>
         </div>
       </div>
       <Education />
