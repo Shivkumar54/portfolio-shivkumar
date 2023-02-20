@@ -1,19 +1,19 @@
 import bg1 from "../Data/PImages/bgDisney.jpg"
-import img1 from "../Data/PImages/1.jpg"
-import img2 from "../Data/PImages/2.jpg"
+import img1 from "../Data/PImages/bgZomato.jpg"
+import img2 from "../Data/PImages/12.png"
 import img3 from "../Data/PImages/3.jpg"
 import img4 from "../Data/PImages/4.jpg"
 import img5 from "../Data/PImages/5.jpg"
 import img6 from "../Data/PImages/6.jpg"
 import img7 from "../Data/PImages/7.jpg"
-// import img8 from "../Data/PImages/8.jpg"
-// import img9 from "../Data/PImages/9.jpg"
+import img8 from "../Data/PImages/8.jpg"
+import img9 from "../Data/PImages/1.jpg"
 
 export default [
   {
     id: 1,
-    img: img1,
-    bgImg: bg1,
+    img: img5,
+    bgImg: img5,
     title: "Coins-Hub",
     overView: `The aim is to develop a crypto price tracker website, where users can see the day-to-day price of the crypto coins using Coin-Gecko API`,
     desc: `Build a responsive site react.js & style using CSS and Bootstrap
@@ -39,7 +39,7 @@ Complete task within the fixed time & deploy in "vercel"`,
   {
     id: 198163,
     img: img2,
-    bgImg: bg1,
+    bgImg: img2,
     title: "Book my Show Clone",
     overView: `The aim is to clone the book my show website within a given time using the TMDB Movie database to fetch the movie data`,
     desc: `Build a responsive site react.js & style using CSS and Tailwind CSS
@@ -64,7 +64,7 @@ Add Payment gateway integration using Razorpay and complete task in the given ti
   {
     id: 3,
     img: img3,
-    bgImg: bg1,
+    bgImg: img3,
     title: "Meme Generator",
     overView: `The aim is to develop a fun application where users can generate memes using this application with simple steps`,
     desc: `Build a responsive site react.js & style using CSS and Bootstrap
@@ -83,7 +83,7 @@ Complete task within the fixed time & deploy in "vercel"`,
   {
     id: 12544,
     img: img4,
-    bgImg: bg1,
+    bgImg: img4,
     title: "Binge Watch",
     overView: `The aim is to develop a OTT platform where users can see the movie and TV shows list by using the TMDB Movie database to fetch the movie and TV shows data`,
     desc: `Build a responsive site with react.js & style using CSS and Bootstrap
@@ -101,7 +101,7 @@ Fetch data from TMDB API & add an event handler to a image while it displays the
   {
     id: 12174687,
     img: img5,
-    bgImg: bg1,
+    bgImg: img5,
     title: "Disney+ Hotstar - Clone",
     overView: `The aim is to clone the Disney+ Hotstar website within a given time using the TMDB Movie database to fetch the movie data`,
     desc: `Build a responsive site with react.js & style using CSS and Bootstrap
@@ -118,7 +118,7 @@ Fetch data from TMDB API and make a clone of the OTT platform disney. This proje
   {
     id: 121,
     img: img6,
-    bgImg: bg1,
+    bgImg: img6,
     title: "Wynk Music Clone",
     overView: `The aim is to clone the Wynk Music website within a given time using the TMDB Movie database to fetch the movie data`,
     desc: `Build a responsive site with react.js & style using CSS and Bootstrap
@@ -134,7 +134,7 @@ Fetch data from TMDB API and make a clone of the OTT platform disney. This proje
   },
   {
     id: 4,
-    img: img1,
+    img: bg1,
     bgImg: bg1,
     title: "Taskie ",
     overView: `The aim is to make a Todo list application`,
@@ -151,7 +151,7 @@ Fetch data from TMDB API and make a clone of the OTT platform disney. This proje
   {
     id: 12145,
     img: img7,
-    bgImg: bg1,
+    bgImg: img7,
     title: "YouTube - Clone",
     overView: `The aim is to clone the YouTube - clone website within a given time using the TMDB Movie database to fetch the movie data`,
     desc: `Build a responsive site with react.js & style using CSS and Bootstrap
@@ -167,8 +167,8 @@ Fetch data from TMDB API and make a youtube clone. This project is to learn the 
   },
   {
     id: 5,
-    img: img1,
-    bgImg: bg1,
+    img: img8,
+    bgImg: img8,
     title: "E- Commerce",
     overView: `The aim is to build a Ecommerce site`,
     desc: `I have developed this site with the help of YouTube in my intitial stages of learning frontend technologies and I have made a e commerce application which is responsive for all devices and deployed in the vercel`,
@@ -183,8 +183,8 @@ Fetch data from TMDB API and make a youtube clone. This project is to learn the 
   },
   {
     id: 6,
-    img: img1,
-    bgImg: bg1,
+    img: img9,
+    bgImg: img9,
     title: "Tenzie",
     overView: `The aim is to build a Tenzie game`,
     desc: `User gets ten dice. with start button. Then user rolls the dice if the 1 or more numbers are same then user should block the number by clicking in the number button and continue the game until every number is same the the game ends`,
@@ -200,7 +200,7 @@ Fetch data from TMDB API and make a youtube clone. This project is to learn the 
   {
     id: 9,
     img: img1,
-    bgImg: bg1,
+    bgImg: img1,
     title: "Zomato Landing Page",
     overView: `The aim is to make a responsive Zomato Landing page`,
     desc: `I have completed this project in my initial stage of internship where I made a Zomato landing page using HTML and CSS it is a simple one page static application users can't make changes and to make responsive for all the devices complete task in the given time and deploy in "Vercel"`,
