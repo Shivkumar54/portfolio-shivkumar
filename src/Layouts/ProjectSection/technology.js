@@ -63,7 +63,8 @@ const technology = () => {
 
   var settings = {
     dots: false,
-    speed: 1000,
+    speed: 700,
+    autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 2,
     initialSlide: 0,
@@ -75,6 +76,7 @@ const technology = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
+          speed: 500,
           slidesToScroll: 3,
           dots: false,
         },
@@ -83,6 +85,7 @@ const technology = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 3,
+          speed: 500,
           slidesToScroll: 3,
           initialSlide: 2,
         },
@@ -91,6 +94,7 @@ const technology = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
+          speed: 500,
           slidesToScroll: 2,
           dots: true,
           arrows: false,
@@ -99,23 +103,23 @@ const technology = () => {
     ],
   }
   return (
-          <div className="exp">
-            <div className="tHeading">
-              <h1 className="tech">Technologies</h1>
-              <span className="subtech">Web development & web designing</span>
+    <div className="exp">
+      <div className="tHeading">
+        <h1 className="tech">Technologies</h1>
+        <span className="subtech">Web development & web designing</span>
+      </div>
+      <Slider className="sliderr" {...settings}>
+        {ExpList.map(({ id, img, title }) => (
+          <div key={id} className="container rootLister">
+            <div className="tContent">
+              <h5 className="expText">
+                {img} {title}
+              </h5>
             </div>
-            <Slider className="sliderr" {...settings}>
-              {ExpList.map(({ id, img, title }) => (
-                <div key={id} className="container rootLister">
-                  <div className="tContent">
-                    <h5 className="expText">
-                      {img} {title}
-                    </h5>
-                  </div>
-                </div>
-              ))}
-            </Slider>
           </div>
+        ))}
+      </Slider>
+    </div>
   )
 }
 

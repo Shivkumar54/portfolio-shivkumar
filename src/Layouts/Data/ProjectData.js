@@ -176,7 +176,7 @@ Fetch data from TMDB API and make a youtube clone. This project is to learn the 
     ide: "Visual Studio code",
     hoisting: "Github",
     deployed: "Vercel.com",
-    pType: " Tutorial",
+    pType: "Tutorial",
     Api: "N/A",
     siteLink: `https://ecommerce-site-self.vercel.app/`,
     codeLink: `https://github.com/Shivkumar54/ecommerce`,

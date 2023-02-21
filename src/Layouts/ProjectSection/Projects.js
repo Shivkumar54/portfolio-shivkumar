@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import Pdata from "../Data/ProjectData"
 const Projects = () => {
   const [data, setData] = useState(Pdata)
-
   const filterItems = (clickedItem) => {
     const getFilteredItems = Pdata.filter((i) => {
       return i.pType === clickedItem
@@ -37,6 +36,7 @@ const Projects = () => {
                 SELF
               </button>
             </div>
+
             {data.map(({ id, title, img }) => {
               return (
                 <div className=" pContanier col-6 col-md-4 col-lg-3" key={id}>
