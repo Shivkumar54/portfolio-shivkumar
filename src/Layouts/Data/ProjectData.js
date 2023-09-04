@@ -8,8 +8,34 @@ import img6 from "../Data/PImages/6.jpg"
 import img7 from "../Data/PImages/7.jpg"
 import img8 from "../Data/PImages/8.jpg"
 import img9 from "../Data/PImages/1.jpg"
+import Ecom from "../Data/PImages/ecom.jpg"
 
 export default [
+  {
+    id: 1,
+    img: Ecom,
+    bgImg: Ecom,
+    title: "Shopeasy",
+    overView: `The aim is to develop a ecommerce website with Fakestore API to fetch the products from it`,
+    desc: `Build a ecommerce site react.js & style using CSS, I have integrated redux store for state management & navigation using ReactRouter-DOM,with filtering sorting ans serarching functionality for products. I have also used custom hooks and HOC to complete this project.
+Fetched coins data from "fakestore" API.
+Complete task within the fixed time & deploy in "vercel"`,
+    technologies: [
+      "ReactJS",
+      "Redux tool-kit",
+      "React Hooks",
+      "Higher Order Component",
+      "Custom hooks",
+    ],
+    ide: "Visual Studio code",
+    hoisting: "Github",
+    deployed: "Vercel.com",
+    pType: "Self",
+    Api: "Fakestore",
+    siteLink: `https://shopeasy-nine.vercel.app/`,
+    codeLink: `https://github.com/Shivkumar54/shopeasy`,
+  },
+
   {
     id: 1,
     img: img5,

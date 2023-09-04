@@ -16,10 +16,12 @@ const About = () => {
           <span className="aSpanner">Short introduction</span>
           <h1 className="aHeading">About Me</h1>
           <p className="aparagraph">
-            A passionate React JS developer with an overall 1 year of experience
-            and 2 years of experience in HTML5, CSS, and Bootstrap. A team
-            player and hard-working professional with overall 1-year experience
-            in an IT firm
+            Passionate Front End Developer with 1.8 years of experience in
+            building high-performing client code using React JS and other modern
+            frameworks. Adept at collaborating with cross-functional teams to
+            understand user pain points and deliver impactful solutions.
+            Committed to writing code that lasts for years, not months, while
+            thriving in a distributed-first work culture.
           </p>
           <Link to={linkedin}>
             {" "}
