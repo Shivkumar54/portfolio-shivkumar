@@ -16,7 +16,7 @@ const Home = () => {
             <p className="homeSubtext">
               A frontend web developer and web designer
             </p>
-            <a href={Resume} download="Shivkumar M">
+            <a href={Resume} download="Shivkumar">
               <button className="homeBtn">Download CV</button>
             </a>
           </div>

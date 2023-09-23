@@ -16,7 +16,7 @@ const About = () => {
           <span className="aSpanner">Short introduction</span>
           <h1 className="aHeading">About Me</h1>
           <p className="aparagraph">
-            Passionate Front End Developer with 1.8 years of experience in
+            Passionate Front End Developer with 2 years of experience in
             building high-performing client code using React JS and other modern
             frameworks. Adept at collaborating with cross-functional teams to
             understand user pain points and deliver impactful solutions.

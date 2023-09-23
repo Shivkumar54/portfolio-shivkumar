@@ -12,7 +12,7 @@ import Ecom from "../Data/PImages/ecom.jpg"
 
 export default [
   {
-    id: 1,
+    id: 0,
     img: Ecom,
     bgImg: Ecom,
     title: "Shopeasy",
